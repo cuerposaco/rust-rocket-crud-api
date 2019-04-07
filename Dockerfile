@@ -1,7 +1,7 @@
 FROM rust:latest
 
 RUN rustup default nightly
-RUN cargo install cargo-watch
+RUN cargo install cargo-watch diesel_cli
 
 WORKDIR /var/app
 
