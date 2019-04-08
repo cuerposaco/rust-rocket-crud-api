@@ -6,3 +6,6 @@ keep_alive = 5
 log = "normal"
 # secret_key = [randomly generated at launch]
 limits = { forms = 32768 }
+
+# [global.databases]
+# diesel_mysql_pool = { url = "mysql://demo:demo@db/heroes" }
